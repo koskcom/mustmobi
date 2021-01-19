@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bsl.co.mustmobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/meru_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/meru_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MUSTMOBILE">
+        <activity android:name="pl.atk.animatedsplashscreen.screens.splash.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".ui.common.LoginActivity"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".ui.common.DashboadActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activities.BookHostelActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.CourseSelectionActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.DepartmentSelectionActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.ExamCardActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.ExamResultsActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.ExamsActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.FeesStatementActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+
+        <activity
+            android:name=".ui.activities.ProfileActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.TimeTableActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.UnitsActivity"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.activities.Schools.SCI"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activities.Schools.HEALTHSCIENCES"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    <activity
+            android:name=".ui.activities.Schools.SPAS"
+            android:label="New Record"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>
